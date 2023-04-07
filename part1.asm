@@ -3,7 +3,6 @@
 .stack 4096
 
 .data
-num1 DWORD 0AABBCCDDh
 intA dd 10
 intB dd 20
 
