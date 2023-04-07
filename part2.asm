@@ -3,7 +3,6 @@
 .stack 4096
 
 
-includelib libc.lib
 extrn printf:near
 
 .data
