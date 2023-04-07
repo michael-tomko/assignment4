@@ -9,6 +9,13 @@
 .code
 main PROC C
 
+push 12
+pop eax
+push 6
+pop ebx
+mul ebx 
+push ebx
+
 
 
 
