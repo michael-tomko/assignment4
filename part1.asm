@@ -4,19 +4,19 @@
 
 .data
 num1 DWORD 0AABBCCDDh
-a dd 10
-b dd 2
-var3 dd ?
+intA dd 10
+intB dd 2
 
 .code
 main PROC C
 
-mov eax, a
-mov ebx, b
-add eax, ebx
-mov var3, eax
+mov eax, offset intA
+mov ebx, offset intB
 
-mov ebx, var3
+mov ecx, [eax]
+add [ebx], ecx
+
+
 
 
 ret
